@@ -41,13 +41,13 @@
 
 To launch the main program, use the following command:
 
-```bash
+```java
 ./gradlew shadowJar
 ```
 
 Then execute the following command:
 
-```bash
+```java
 java -jar app/build/libs/lensjudge-shadow-1.0-all.jar app\src\test\resources\ProgTestSae\nameOfTheFile.extension app\src\test\resources\ProgTestSae\file.in ProgTestSae\file.ans -v (1-5)
 ```
 -  -v 1 = Strict verification
